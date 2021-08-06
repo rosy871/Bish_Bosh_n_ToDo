@@ -10,11 +10,16 @@ footer{
 
 }
 #showResult{
-    height: 250px;
+    height: 200px;
     width: 100%;
     color:rgb(99, 58, 8);
+    font-size: 20px;
+    font-weight: 600;
+    
+
    
 }
+
 
 
 
