@@ -1,0 +1,21 @@
+footer{
+    position: fixed;
+    color:cornsilk;
+   left: 0;
+    bottom: 1px;
+    width: 100%;
+}
+.bg-primary{
+    background-color:rgba(86, 86, 177, 0.342) !important;
+
+}
+#showResult{
+    height: 250px;
+    width: 100%;
+    color:rgb(99, 58, 8);
+   
+}
+
+
+
+

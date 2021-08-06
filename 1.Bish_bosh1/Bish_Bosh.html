@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="bishbosh"></p> 
+
+<script>
+   
+  let output,result='';
+  for (let num = 1; num <= 100; num++) 
+  {
+    if(num%3==0&&num%4!=0)
+        output='Bish';
+
+    else if(num%4==0&&num%3!=0)
+        output='Bosh'
+
+    else if(num%3==0&&num%4==0)
+        output='Bish-Bosh';
+
+    else
+        output=num;
+        
+        
+    result+=output;
+    if(num!=100)
+    result+=', '
+    }
+  console.log(result);
+
+
+
+</script>
+
+
+    
+</body>
+</html>
