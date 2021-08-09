@@ -1,0 +1,22 @@
+footer{
+    position: fixed;
+    color:cornsilk;
+    left: 0;
+    bottom: 1px;
+    width: 100%;
+}
+
+
+#todoResult{
+  
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+  
+}
+
+#todoInput{
+    width: 97%;
+    position:absolute;
+    bottom:40px;
+}
